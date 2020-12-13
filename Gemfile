@@ -11,6 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'uglifier', '~> 4.2'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'pg', '~> 1.2', '>= 1.2.3'
 
 
 group :development, :test do
