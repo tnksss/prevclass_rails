@@ -2,7 +2,7 @@
 
 env:
   global:
-    - CC_TEST_REPORTER_ID=f15a16ce373490fbecfb82bd4527465fd2ae342214eed9e4cb8ad5158e1f6e02
+    - CC_TEST_REPORTER_ID=f31659f629e78403e1abb683c2f40efff2df7e1b00a18c4284982448866e7a36
 addons:
   postgresql: 9.6
   firefox: '65.0'
@@ -24,7 +24,7 @@ before_script:
 dist: trusty
 language: ruby
 rvm:
-  - 2.6.1
+  - 2.7.0
 install:
   - bundle install
   - nvm install node
